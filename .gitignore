@@ -1,1 +1,21 @@
+# datasets
 *.parquet
+data/
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# environment
+.env
+.venv/
+venv/
+
+# models / outputs
+*.pkl
+*.joblib
+models/
+outputs/
